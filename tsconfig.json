@@ -22,11 +22,10 @@
         "./src/math/math12.d.ts",
         "./src/math/math12.ts",
         "./src/two/two.d.ts",
+        "./src/two/two.spec.d.ts",
         "./src/two/two.spec.ts",
         "./src/two/two.ts",
-        "./typings/chai/chai.d.ts",
         "./typings/jquery/jquery.d.ts",
-        "./typings/mocha/mocha.d.ts",
         "./typings/react/react.d.ts",
         "./typings/tsd.d.ts"
     ]
