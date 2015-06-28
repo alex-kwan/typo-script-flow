@@ -1,0 +1,33 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./src/index/index.d.ts",
+        "./src/index/index.ts",
+        "./src/math/math.spec.d.ts",
+        "./src/math/math.spec.ts",
+        "./src/math/math12.d.ts",
+        "./src/math/math12.ts",
+        "./src/two/two.d.ts",
+        "./src/two/two.spec.ts",
+        "./src/two/two.ts",
+        "./typings/chai/chai.d.ts",
+        "./typings/jquery/jquery.d.ts",
+        "./typings/mocha/mocha.d.ts",
+        "./typings/react/react.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}

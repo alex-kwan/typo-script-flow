@@ -1,0 +1,23 @@
+{
+  "name": "tsjquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^0.13.3",
+    "typed-react": "^3.4.1",
+    "typescript-loader": "^1.1.3"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha src/**/*.spec.js",
+    "start": "webpack --progress --colors --watch",
+    "build": "webpack",
+    "autoreload": "webpack-dev-server --progress --colors"
+  },
+  "author": "",
+  "license": "ISC"
+}
