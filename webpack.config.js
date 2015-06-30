@@ -10,7 +10,7 @@ module.exports = {
   },
   // Currently we need to add '.ts' to resolve.extensions array.
   resolve: {
-    extensions: ['', '.webpack.js', '.web.js', '.js']
+    extensions: ['', '.webpack.js', '.web.js', '.js','.less']
   },
 
   // Source maps support (or 'inline-source-map' also works)
@@ -22,6 +22,10 @@ module.exports = {
       {
         test: /\.ts$/,
         loader: 'typescript-loader'
+      },
+      {
+        test: /\.less$/,
+        loader: "style!css!less"
       }
     ]
   }

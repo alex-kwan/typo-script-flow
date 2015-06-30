@@ -9,6 +9,9 @@ var Math12 = MathModule.Math12;
 var add = Math12.add;
 var isEven = Math12.isEven;
 
+
+require('../../style/test.less');
+
 class Person {
 
   constructor(name:string)
@@ -26,5 +29,7 @@ var two= new TwoModule.Two("word");
 var word = two.say();
 $(document).ready(function(){
     var message = greeter(word);
-  $("#status")[0].innerHTML=message + " " + isEven(add(2,2)) + " cool eh x2?";
+  var element = $("#status")[0];
+ element.innerHTML = "<div class='pink'>"+isEven(add(2,3))+"</div>"
+
 });

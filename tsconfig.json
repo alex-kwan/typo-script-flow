@@ -17,7 +17,6 @@
     "files": [
         "./src/index/index.d.ts",
         "./src/index/index.ts",
-        "./src/math/math.spec.d.ts",
         "./src/math/math.spec.ts",
         "./src/math/math12.d.ts",
         "./src/math/math12.ts",

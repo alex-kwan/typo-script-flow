@@ -10,7 +10,11 @@
   },
   "devDependencies": {
     "chai": "^3.0.0",
-    "mocha": "^2.2.5"
+    "css-loader": "^0.15.1",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "mocha": "^2.2.5",
+    "style-loader": "^0.12.3"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha src/**/*.spec.js",
