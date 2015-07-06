@@ -38,6 +38,5 @@
         "./typings/tsd.d.ts",
         "./src/reacttest/AnotherDisplay.tsx",
         "./src/reacttest/RepoDisplay.tsx"
-        "./typings/tsd.d.ts"
     ]
 }
