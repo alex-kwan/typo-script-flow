@@ -1,4 +1,19 @@
 # typo-script-flow
+
+#pre-requesite
+git clone https://github.com/Microsoft/TypeScript.git
+
+cd ./TypeScript
+
+npm install
+
+npm install -g jake
+
+jake local
+
+
+=================
+
 just a test experiment git repo
 
 //packs all of the deliverables together to be served up together on one page

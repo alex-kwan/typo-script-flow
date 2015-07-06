@@ -16,9 +16,10 @@
     "style-loader": "^0.12.3"
   },
   "scripts": {
+    "init": "npm install || tsd install",
     "test": "./node_modules/mocha/bin/mocha src/**/*.spec.js",
     "start": "webpack --progress --colors --watch",
-    "build": "webpack",
+    "build": "node ../Typescript/built/local/tsc.js || webpack",
     "autoreload": "webpack-dev-server --progress --colors"
   },
   "author": "",
