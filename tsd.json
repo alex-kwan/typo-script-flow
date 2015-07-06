@@ -8,8 +8,20 @@
     "jquery/jquery.d.ts": {
       "commit": "101a5daef4fc42eca0d447ba5d080248f80daf90"
     },
+    "react/react-jsx.d.ts": {
+      "commit": "625cd68fed45e3230393af71bcde1d36706f3d56"
+    },
     "react/react.d.ts": {
-      "commit": "ac3a1f059f655059484d6aa5ba1f0f85908ae06c"
+      "commit": "625cd68fed45e3230393af71bcde1d36706f3d56"
+    },
+    "chai/chai.d.ts": {
+      "commit": "ab3cc82066805007cbf0db233ddb5879f42be4d2"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "ab3cc82066805007cbf0db233ddb5879f42be4d2"
+    },
+    "node/node.d.ts": {
+      "commit": "7bab855ae33d79e86da1eb6c73a7f7eab2676ddb"
     }
   }
 }

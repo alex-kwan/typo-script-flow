@@ -5,6 +5,10 @@
 import TwoModule = require('../two/two');
 import MathModule = require('../math/math12');
 
+
+require('../reacttest/RepoDisplay');
+
+
 var Math12 = MathModule.Math12;
 var add = Math12.add;
 var isEven = Math12.isEven;
@@ -31,10 +35,10 @@ var word = two.say();
 $(document).ready(function(){
     var message = greeter(word);
    var a1 = $("#a1")[0];
-   a1.innerHTML = "<div class='index col-sm-1'>"+isEven(add(2,3))+"</div>"
+   a1.innerHTML = "<div class='index-red col-sm-1'>"+isEven(add(2,3))+"</div>"
    var a2 = $("#a2")[0];
-   a2.innerHTML = "<div class='col-sm-5'>"+isEven(add(2,3))+"</div>"
+   a2.innerHTML = "<div class='index-blue col-sm-5'>"+isEven(add(2,3))+"</div>"
    var a3 = $("#a3")[0];
-   a3.innerHTML = "<div class='col-sm-5'>"+isEven(add(2,3))+"</div>"
+   a3.innerHTML = "<div class='index-yellow col-sm-5'>"+isEven(add(2,3))+"</div>"
 
 });
