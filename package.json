@@ -20,7 +20,8 @@
     "test": "./node_modules/mocha/bin/mocha src/**/*.spec.js",
     "start": "webpack --progress --colors --watch",
     "build": "node ../Typescript/built/local/tsc.js && webpack",
-    "autoreload": "webpack-dev-server --progress --colors"
+    "autoreload": "webpack-dev-server --progress --colors",
+    "try" : "node ../Typescript/built/local/tsc.js && webpack && http-server"
   },
   "author": "",
   "license": "ISC"

@@ -4,6 +4,8 @@
 /// <reference path="./AnotherDisplay.d.ts"/>
 
 import AnotherDisplayModule = require('./AnotherDisplay');
+require('./RepoDisplay.less');
+
 let Another = AnotherDisplayModule.AnotherDisplay;
 interface RepoProps extends React.Props<any> {
 	name: string;
@@ -12,7 +14,7 @@ interface RepoProps extends React.Props<any> {
 }
 class RepoDisplay extends React.Component<RepoProps, {}> {
 	render() {
-		return <div>
+		return <div className="index-green col-lg-12">
 			<span style={{'fontWeight': 'bold'}}><a href={this.props.url}>{this.props.name}</a>: </span>
 			<div><Another name='a1' type='a2'/></div>
 			<span>{this.props.description}</span>
