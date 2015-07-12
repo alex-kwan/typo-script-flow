@@ -6,3 +6,4 @@ typings
 *.js
 *.d.ts
 build
+npm-debug.log

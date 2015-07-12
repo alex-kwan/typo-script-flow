@@ -18,7 +18,6 @@
     ],
     "files": [
         "./src/index/index.d.ts",
-        "./src/index/index.ts",
         "./src/math/math.spec.d.ts",
         "./src/math/math.spec.ts",
         "./src/math/math12.d.ts",
@@ -36,6 +35,7 @@
         "./typings/react/react-jsx.d.ts",
         "./typings/react/react.d.ts",
         "./typings/tsd.d.ts",
+        "./src/index/index.tsx",
         "./src/reacttest/AnotherDisplay.tsx",
         "./src/reacttest/RepoDisplay.tsx"
     ]

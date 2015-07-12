@@ -1,12 +1,16 @@
-module.exports = {
+var path = require('path');
+var webpack = require('webpack');
 
-  entry: __dirname + '/src/index/index.ts',
+module.exports = {
+  devtool: 'eval',
+  entry: './src/index/index.js',
+//  entry: __dirname + '/src/index/index.ts',
 
   output: {
-    path: 'build',
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
     chunkFilename: '[id].js',
-    publicPath: 'build/'
+    publicPath: '/build/'
   },
   // Currently we need to add '.ts' to resolve.extensions array.
   resolve: {
