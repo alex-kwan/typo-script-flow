@@ -2,8 +2,6 @@ bower_components
 node_modules
 node_modules/.bin
 typings
-*.js
-*.js
+src/**/.js
 *.d.ts
 build
-npm-debug.log
