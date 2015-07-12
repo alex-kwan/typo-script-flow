@@ -12,9 +12,10 @@
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
     "mocha": "^2.2.5",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.7",
     "react-jsx": "^0.13.0",
     "style-loader": "^0.12.3",
-    "react-hot-loader": "^1.2.7",
     "webpack": "^1.9.6",
     "webpack-dev-server": "^1.8.2"
   },
@@ -24,7 +25,7 @@
     "start": "node server.js",
     "build": "node ../Typescript/built/local/tsc.js && webpack",
     "autoreload": "webpack-dev-server --progress --colors",
-    "try" : "node ../Typescript/built/local/tsc.js && webpack && http-server"
+    "try": "node ../Typescript/built/local/tsc.js && webpack && http-server"
   },
   "author": "",
   "license": "ISC"
