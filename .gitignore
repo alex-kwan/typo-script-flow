@@ -2,6 +2,6 @@ bower_components
 node_modules
 node_modules/.bin
 typings
-src/**/.js
+src/**/*.js
 src/**/*.d.ts
 build
