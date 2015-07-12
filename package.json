@@ -22,9 +22,9 @@
   "scripts": {
     "init": "npm install && tsd install && bower install",
     "test": "./node_modules/mocha/bin/mocha src/**/*.spec.js",
-    "dev": "node server.js & open http://0.0.0.0:3000",
+    "dev": "node server.js",
     "build": "node ../Typescript/built/local/tsc.js && webpack",
-    "try": "node ../Typescript/built/local/tsc.js && webpack && http-server & open http://0.0.0.0:8080"
+    "try": "node ../Typescript/built/local/tsc.js && webpack && http-server"
   },
   "author": "",
   "license": "ISC"
