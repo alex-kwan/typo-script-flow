@@ -3,5 +3,5 @@ node_modules
 node_modules/.bin
 typings
 src/**/.js
-*.d.ts
+src/**/*.d.ts
 build
